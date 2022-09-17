@@ -59,9 +59,10 @@
 .social-list__icon {
     fill: var(--icon-color);
     transition: fill var(--transition-dur-and-funk);
+
+    .social-list__link:hover &,
+    .social-list__link:focus & {
+        fill: var(--main-light-color);
+    }
 }
 
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
-    fill: var(--main-light-color);
-}

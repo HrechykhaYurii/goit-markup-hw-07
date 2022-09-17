@@ -4,8 +4,10 @@
     background-color: var(--main-dark-color);
 }
 
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
+.address__item {
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
 }
 
 .page-footer__logo {
@@ -44,7 +46,6 @@
         color: var(--hover-color);
     }
 }
-
 
 .wrap-footer {
     display: flex;
